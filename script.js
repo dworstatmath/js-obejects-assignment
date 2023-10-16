@@ -4,7 +4,7 @@
 function houseTotal(obj) {
 
 
-return 
+return obj.socks+obj.spoons+obj.nutella_jar+obj.keys+obj.shoelaces+obj.rotisserie_chicken
 
 }
 // uncomment these out to test it out
