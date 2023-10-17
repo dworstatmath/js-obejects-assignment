@@ -4,22 +4,24 @@
 function houseTotal(obj) {
 
 
-return obj.socks+obj.spoons+obj.nutella_jar+obj.keys+obj.shoelaces+obj.rotisserie_chicken
+return (obj.socks+obj.spoons+obj.nutella_jar+obj.keys+obj.shoelaces+obj.rotisserie_chicken
 
 }
 counsle.log(houseTotal(stolenItems[0]))
 // uncomment these out to test it out
-//console.log(houseTotal(stolenItems[0])); 
-//console.log(houseTotal(stolenItems[1]));
-//console.log(houseTotal(stolenItems[2])); 
+console.log(houseTotal(stolenItems[0])); 
+console.log(houseTotal(stolenItems[1]));
+console.log(houseTotal(stolenItems[2])); 
  
 // PROBLEM TWO
 // Given an object of the stolen items for a household and a string in lowercase representing a specific item, return true if that item was stolen and false if it was not. 
 
 function isStolen(obj, item) {
-
-
-
+if(){
+ return(true)
+}else{
+ return(false)
+}
 }
 // uncomment these out to test it out
 //console.log(houseTotal(stolenItems[0], "keys")); 
@@ -31,7 +33,9 @@ function isStolen(obj, item) {
 // Given an array of objects representing an entire neighborhood, return the most frequently stolen item. This is NOT the item that has been stolen from the most households, this is the item that has been stolen the most times TOTAL. 
 
 function neighborhoodTotal(arr) {
-
+ for (arr.length){
+  
+ }
 
   return total; 
   
